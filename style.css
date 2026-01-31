@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+
+.register {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.regcon {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+
+h2 {
+    text-align: center;
+    margin: 8px;
+
+}
+
+h5 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+/* Add to your style.css or in a <style> tag */
+button {
+    background-color: #9370db; /* Lavender purple */
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px; /* Optional: rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #7b68ee; /* Slightly darker lavender on hover */
+    opacity: 0.9;
+    transform: translateY(-2px); /* Optional: lift effect */
+    box-shadow: 0 4px 12px rgba(147, 112, 219, 0.3);
+}
+
+.dashboard button {
+    background-color: rgb(214, 47, 47);
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.loginpage {
+    margin-top: 8px;
+    padding: 40px;
+}
+
+.dashboard {
+    border-collapse: collapse;
+    margin: 40px auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.dashboard th {
+    background-color: rgb(194, 119, 190);
+}
+
+.dashboard tr {
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dashboard th {
+    color: white;
+}
+
+.dashboard th,
+.dashboard td {
+    padding: 12px 15px;
+}
+
+.dashboard tbody tr {
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.dashboard tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+
+}
+
+.dashboard tbody tr:hover {
+    background-color: #e0e0e0;
+}
+/* Fluffy heading styles */
+h1, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 20px rgba(147, 112, 219, 0.15);
+    margin: 15px auto;
+    
+}
+
+/* Fluffy paragraph text */
+p {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin: 20px 0;
+    
+}
+
+/* Fluffy labels */
+label {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+    color: #666;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+/* Fluffy signature */
+.signature {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.4em !important;
+    color: #8a2be2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(147, 112, 219, 0.2);
+    border: 2px dotted #d8bfd8;
+}
